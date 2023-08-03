@@ -9,7 +9,7 @@ import {
 import LoadingBar from 'react-top-loading-bar'
 let country = "in";
 let pageSize = 25;
-let apiKey = process.env.REACT_APP_NEWS_API;
+let apiKey = "ddbfc7a5e7a84b378876a9b0a79a7b04";
 function App() {
   const [progress, setProgress] = useState(0);
   return (
